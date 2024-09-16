@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details - Local Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <!-- Include your navbar here -->
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="image/img1.jpg" class="img-fluid" alt="Product Image"> 
+            </div>
+            <div class="col-md-6">
+                <h1 id="product-name">Product Name</h1>
+                <p id="product-description">Product Description</p>
+                <p id="product-price">Price: ₹1999</p>
+                <button class="btn btn-primary add-to-cart" data-product-id="1">Add to Cart</button>
+
+                <div class="mt-4">
+                    <h4>Reviews</h4>
+                    <div id="product-reviews">
+                        <!-- Reviews will be displayed here -->
+                    </div>
+                    <form id="add-review-form">
+                        <label for="review-text">Add Your Review:</label>
+                        <textarea id="review-text" rows="3" required></textarea>
+                        <button type="submit" class="btn btn-primary">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
