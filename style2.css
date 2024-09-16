@@ -1,0 +1,22 @@
+body {
+
+    background-image: linear-gradient(rgb(247, 239, 193), rgb(121, 169, 186));
+    height: 100vh;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 10;
+}
+h2{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+    
